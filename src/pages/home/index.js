@@ -6,7 +6,7 @@ class Home extends React.Component {
         return (
             <>
                 <Header />
-                <h1> VOCÊ ESTÁ NA PÁGINA PRINCIPAL </h1>
+                <h1><center> VOCÊ ESTÁ NA PÁGINA DE APRESENTAÇÃO </center></h1>
             </>
         )
     }

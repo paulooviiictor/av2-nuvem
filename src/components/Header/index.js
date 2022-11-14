@@ -1,26 +1,30 @@
-import React, { Link, Button, Row, Col } from "react"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class Header extends React.Component {
-    render() {
-        return (
-            <div style={{ backgroundColor: 'black', paddingRight: '90em' }}>
-                <ul style={{ listStyle: 'none', display: 'inline-flex' }}>
-                    <li>
-                        <a href="/" style={{ color: 'white' }}>Home</a>
-                    </li>
-                    &nbsp;
-                    <li>
-                        <a href="/vectors" style={{ color: 'white' }}>Vectors</a>
-                    </li>
-                    &nbsp;
-                    <li>
-                        <a href="/photos" style={{ color: 'white' }}>Photos</a>
-                    </li>
-                </ul>
 
-            </div>
-        )
-    }
-}
+function PaginaInicial() {
+    return (
+      <>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand href="/">LOGO</Navbar.Brand>
 
-export default Header;
+            <Nav className="me-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/apresentacao">Apresentação</Nav.Link>
+              <Nav.Link href="/orcamento">Orçamentos</Nav.Link>
+              <Nav.Link href="/nossosProjetos">Nossos Proejtos</Nav.Link>
+              <Nav.Link href="/depoimentos">Depoimentos</Nav.Link>
+              <Nav.Link href="/sobrenos">Sobre Nós</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+        <br />    
+      </>
+    );
+  }
+  
+  export default PaginaInicial;
