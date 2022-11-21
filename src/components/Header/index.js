@@ -5,21 +5,23 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
+
 function PaginaInicial() {
     return (
       <>
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="/">LOGO</Navbar.Brand>
+            <Navbar.Brand href="/">MENU</Navbar.Brand>
 
-            <Nav className="me-auto">
+            <center><Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/apresentacao">Apresentação</Nav.Link>
               <Nav.Link href="/orcamento">Orçamentos</Nav.Link>
-              <Nav.Link href="/nossosProjetos">Nossos Proejtos</Nav.Link>
+              <Nav.Link href="/nossosProjetos">Nossos Projetos</Nav.Link>
               <Nav.Link href="/depoimentos">Depoimentos</Nav.Link>
               <Nav.Link href="/sobrenos">Sobre Nós</Nav.Link>
-            </Nav>
+            </Nav></center>
           </Container>
         </Navbar>
         <br />    

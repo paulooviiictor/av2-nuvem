@@ -7757,6 +7757,11 @@
     "regenerator-runtime" "^0.13.9"
     "whatwg-fetch" "^3.6.2"
 
+"react-bootstrap-carousel@^4.1.1":
+  "integrity" "sha512-nlkmx33jclOfEi1lAfFRRiDO5F2u4D03dbIhvrFPiUoiKgkMngeSZMFg6gY/sQPAhv3pQqhti5evoVgZMFaV2g=="
+  "resolved" "https://registry.npmjs.org/react-bootstrap-carousel/-/react-bootstrap-carousel-4.1.1.tgz"
+  "version" "4.1.1"
+
 "react-bootstrap@^2.6.0":
   "integrity" "sha512-WnDgN6PR8WZKo2Og5J8EafFi4BsABjc96lNuMNfksrgiPDCw18/woWQCNhAeHFZQWTQ/PijkOrQ9ncTWwO//AA=="
   "resolved" "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.6.0.tgz"
@@ -7805,7 +7810,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.14.0", "react-dom@>=16.6.0", "react-dom@>=16.8":
+"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.14.0", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
